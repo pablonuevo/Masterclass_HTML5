@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>L'Encyclopédie de la Conquête Spatiale</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  </head>
+  <body>
+    <header>
+      <h1>L'Encyclopédie de la Conquête Spatiale</h1>
+      <nav>
+        <ul>
+          <li><a href="#histoire">Histoire</a></li>
+          <li><a href="#technologies">Technologies</a></li>
+          <li><a href="#medias">Médias</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <hr />
+    </header>
+    <main>
+      <article>
+        <h2>"L'Histoire des missions Apollo".</h2>
+        <p>
+          L'histoire des missions Apollo, menées par la
+          <abbr title="National Aeronautics and Space Administration"
+            >NASA</abbr
+          >
+          entre 1961 et 1972, représente l'un des chapitres les plus fascinants
+          de l'exploration spatiale. Né de la volonté de relever le défi lancé
+          par le président John F. Kennedy d'envoyer un homme sur la Lune avant
+          la fin de la décennie, ce programme a mobilisé des ressources
+          technologiques et humaines sans précédent. Le point culminant de cette
+          épopée fut atteint en juillet 1969 avec Apollo 11, lorsque
+          <mark>Neil Armstrong</mark> et Buzz Aldrin foulèrent pour la première
+          fois le sol lunaire sous les yeux de millions de téléspectateurs. Bien
+          que le programme se soit achevé en
+          <time datetime="1972-12">décembre 1972</time> avec Apollo 17, ces
+          missions ont profondément transformé notre compréhension de l'univers
+          et marqué à jamais l'histoire de l'humanité.
+        </p>
+        <p>
+          Pendant les phases critiques de l'alunissage, les astronautes du
+          module lunaire devaient interagir en permanence avec l'ordinateur de
+          bord pour valider les paramètres de descente. Face à un relief imprévu
+          juste avant de toucher le sol, le pilote a dû rapidement exécuter la
+          commande système
+          <code>LUNAR_DESCENT_OVERRIDE --target=MARE_TRQ --mode=MANUAL</code>
+          afin de basculer en mode de correction manuelle de précision et
+          d'assurer un atterrissage sécurisé.
+        </p>
+        <p>
+          <small>Source : Archives gouvernementales</small>
+        </p>
+      </article>
+      <section>
+        <h2>Archives multimédias.</h2>
+        <figure>
+          <img src="./Apollo11.jpg" alt="Module lunaire d'Apollo 11" />
+          <figcaption>Le module lunaire d'Apollo 11 sur la Lune.</figcaption>
+        </figure>
+        <video controls width="1200" height="600">
+          <source src="./Apollo11_Landing.mp4" type="video/mp4" />
+          Votre navigateur ne supporte pas la lecture de vidéos.
+          <track
+            src="./Apollo11_Landing.vtt"
+            kind="subtitles"
+            srclang="fr"
+            label="Français"
+          />
+        </video>
+        <audio controls>
+          <source src="./Apollo11_Audio.mp3" type="audio/mpeg" />
+          <source src="./Apollo11_Audio.ogg" type="audio/ogg" />
+          Votre navigateur ne supporte pas la lecture de l'audio.
+        </audio>
+      </section>
+    </main>
+  </body>
+</html>
